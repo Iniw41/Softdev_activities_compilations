@@ -207,6 +207,7 @@
             PanelDesktop.Name = "PanelDesktop";
             PanelDesktop.Size = new Size(1109, 619);
             PanelDesktop.TabIndex = 2;
+            PanelDesktop.Paint += PanelDesktop_Paint;
             // 
             // MainWindow
             // 

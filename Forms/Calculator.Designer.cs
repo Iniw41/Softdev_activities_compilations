@@ -3,12 +3,12 @@
     partial class Calculator
     {
         /// <summary>
-        /// Required designer variable.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,415 +23,428 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            Seven = new Button();
-            Calc_Output = new TextBox();
-            Four = new Button();
-            One = new Button();
+            Viewbox = new TextBox();
             zero = new Button();
-            DecimalPoint = new Button();
-            Two = new Button();
-            Five = new Button();
-            Eight = new Button();
-            Three = new Button();
-            Six = new Button();
-            Nine = new Button();
-            Addition = new Button();
-            Subtraction = new Button();
-            Multiplication = new Button();
-            Divition = new Button();
-            Tan_num = new Button();
-            Fraction = new Button();
-            Squared = new Button();
-            Sqareroot = new Button();
-            Cos_num = new Button();
-            Sin_num = new Button();
-            Cubed = new Button();
-            Pi = new Button();
-            BackButtonOnCalc = new Button();
-            C_num = new Button();
-            CE_num = new Button();
-            Result = new Button();
+            one = new Button();
+            two = new Button();
+            three = new Button();
+            four = new Button();
+            fiver = new Button();
+            six = new Button();
+            seven = new Button();
+            eight = new Button();
+            nine = new Button();
+            Equals = new Button();
+            plus = new Button();
+            minus = new Button();
+            times = new Button();
+            divide = new Button();
+            Clear = new Button();
+            dot = new Button();
+            back = new Button();
+            power = new Button();
+            squareroot = new Button();
+            logarithm = new Button();
+            Sinetrigo = new Button();
+            cosinetrigo = new Button();
+            tangeanttrigo = new Button();
+            naturallog = new Button();
+            tab = new Button();
             SuspendLayout();
             // 
-            // Seven
+            // Viewbox
             // 
-            Seven.FlatStyle = FlatStyle.Flat;
-            Seven.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Seven.Location = new Point(119, 108);
-            Seven.Name = "Seven";
-            Seven.Size = new Size(75, 75);
-            Seven.TabIndex = 0;
-            Seven.Text = "7";
-            Seven.UseVisualStyleBackColor = true;
-            // 
-            // Calc_Output
-            // 
-            Calc_Output.BorderStyle = BorderStyle.None;
-            Calc_Output.Location = new Point(119, 14);
-            Calc_Output.Multiline = true;
-            Calc_Output.Name = "Calc_Output";
-            Calc_Output.Size = new Size(561, 72);
-            Calc_Output.TabIndex = 1;
-            // 
-            // Four
-            // 
-            Four.FlatStyle = FlatStyle.Flat;
-            Four.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Four.Location = new Point(119, 189);
-            Four.Name = "Four";
-            Four.Size = new Size(75, 75);
-            Four.TabIndex = 2;
-            Four.Text = "4";
-            Four.UseVisualStyleBackColor = true;
-            // 
-            // One
-            // 
-            One.FlatStyle = FlatStyle.Flat;
-            One.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            One.Location = new Point(119, 270);
-            One.Name = "One";
-            One.Size = new Size(75, 75);
-            One.TabIndex = 3;
-            One.Text = "1";
-            One.UseVisualStyleBackColor = true;
+            Viewbox.Font = new Font("Segoe UI", 25F);
+            Viewbox.Location = new Point(43, 33);
+            Viewbox.Margin = new Padding(3, 2, 3, 2);
+            Viewbox.Name = "Viewbox";
+            Viewbox.Size = new Size(342, 52);
+            Viewbox.TabIndex = 0;
             // 
             // zero
             // 
-            zero.FlatStyle = FlatStyle.Flat;
-            zero.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            zero.Location = new Point(119, 351);
+            zero.Font = new Font("Segoe UI", 12F);
+            zero.Location = new Point(158, 218);
+            zero.Margin = new Padding(3, 2, 3, 2);
             zero.Name = "zero";
-            zero.Size = new Size(156, 75);
-            zero.TabIndex = 4;
+            zero.Size = new Size(52, 38);
+            zero.TabIndex = 1;
             zero.Text = "0";
             zero.UseVisualStyleBackColor = true;
+            zero.Click += zero_Click;
             // 
-            // DecimalPoint
+            // one
             // 
-            DecimalPoint.FlatStyle = FlatStyle.Flat;
-            DecimalPoint.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            DecimalPoint.Location = new Point(281, 351);
-            DecimalPoint.Name = "DecimalPoint";
-            DecimalPoint.Size = new Size(75, 75);
-            DecimalPoint.TabIndex = 8;
-            DecimalPoint.Text = ".";
-            DecimalPoint.UseVisualStyleBackColor = true;
+            one.Font = new Font("Segoe UI", 12F);
+            one.Location = new Point(43, 92);
+            one.Margin = new Padding(3, 2, 3, 2);
+            one.Name = "one";
+            one.Size = new Size(52, 38);
+            one.TabIndex = 2;
+            one.Text = "1";
+            one.UseVisualStyleBackColor = true;
+            one.Click += one_Click;
             // 
-            // Two
+            // two
             // 
-            Two.FlatStyle = FlatStyle.Flat;
-            Two.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Two.Location = new Point(200, 270);
-            Two.Name = "Two";
-            Two.Size = new Size(75, 75);
-            Two.TabIndex = 7;
-            Two.Text = "2";
-            Two.UseVisualStyleBackColor = true;
+            two.Font = new Font("Segoe UI", 12F);
+            two.Location = new Point(101, 92);
+            two.Margin = new Padding(3, 2, 3, 2);
+            two.Name = "two";
+            two.Size = new Size(52, 38);
+            two.TabIndex = 3;
+            two.Text = "2";
+            two.UseVisualStyleBackColor = true;
+            two.Click += two_Click;
             // 
-            // Five
+            // three
             // 
-            Five.FlatStyle = FlatStyle.Flat;
-            Five.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Five.Location = new Point(200, 189);
-            Five.Name = "Five";
-            Five.Size = new Size(75, 75);
-            Five.TabIndex = 6;
-            Five.Text = "5";
-            Five.UseVisualStyleBackColor = true;
+            three.Font = new Font("Segoe UI", 12F);
+            three.Location = new Point(158, 92);
+            three.Margin = new Padding(3, 2, 3, 2);
+            three.Name = "three";
+            three.Size = new Size(52, 38);
+            three.TabIndex = 4;
+            three.Text = "3";
+            three.UseVisualStyleBackColor = true;
+            three.Click += three_Click;
             // 
-            // Eight
+            // four
             // 
-            Eight.FlatStyle = FlatStyle.Flat;
-            Eight.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Eight.Location = new Point(200, 108);
-            Eight.Name = "Eight";
-            Eight.Size = new Size(75, 75);
-            Eight.TabIndex = 5;
-            Eight.Text = "8";
-            Eight.UseVisualStyleBackColor = true;
+            four.Font = new Font("Segoe UI", 12F);
+            four.Location = new Point(43, 134);
+            four.Margin = new Padding(3, 2, 3, 2);
+            four.Name = "four";
+            four.Size = new Size(52, 38);
+            four.TabIndex = 5;
+            four.Text = "4";
+            four.UseVisualStyleBackColor = true;
+            four.Click += four_Click;
             // 
-            // Three
+            // fiver
             // 
-            Three.FlatStyle = FlatStyle.Flat;
-            Three.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Three.Location = new Point(281, 270);
-            Three.Name = "Three";
-            Three.Size = new Size(75, 75);
-            Three.TabIndex = 11;
-            Three.Text = "3";
-            Three.UseVisualStyleBackColor = true;
+            fiver.Font = new Font("Segoe UI", 12F);
+            fiver.Location = new Point(101, 134);
+            fiver.Margin = new Padding(3, 2, 3, 2);
+            fiver.Name = "fiver";
+            fiver.Size = new Size(52, 38);
+            fiver.TabIndex = 6;
+            fiver.Text = "5";
+            fiver.UseVisualStyleBackColor = true;
+            fiver.Click += fiver_Click;
             // 
-            // Six
+            // six
             // 
-            Six.FlatStyle = FlatStyle.Flat;
-            Six.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Six.Location = new Point(281, 189);
-            Six.Name = "Six";
-            Six.Size = new Size(75, 75);
-            Six.TabIndex = 10;
-            Six.Text = "6";
-            Six.UseVisualStyleBackColor = true;
+            six.Font = new Font("Segoe UI", 12F);
+            six.Location = new Point(158, 134);
+            six.Margin = new Padding(3, 2, 3, 2);
+            six.Name = "six";
+            six.Size = new Size(52, 38);
+            six.TabIndex = 7;
+            six.Text = "6";
+            six.UseVisualStyleBackColor = true;
+            six.Click += six_Click;
             // 
-            // Nine
+            // seven
             // 
-            Nine.FlatStyle = FlatStyle.Flat;
-            Nine.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Nine.Location = new Point(281, 108);
-            Nine.Name = "Nine";
-            Nine.Size = new Size(75, 75);
-            Nine.TabIndex = 9;
-            Nine.Text = "9";
-            Nine.UseVisualStyleBackColor = true;
+            seven.Font = new Font("Segoe UI", 12F);
+            seven.Location = new Point(43, 176);
+            seven.Margin = new Padding(3, 2, 3, 2);
+            seven.Name = "seven";
+            seven.Size = new Size(52, 38);
+            seven.TabIndex = 8;
+            seven.Text = "7";
+            seven.UseVisualStyleBackColor = true;
+            seven.Click += seven_Click;
             // 
-            // Addition
+            // eight
             // 
-            Addition.FlatStyle = FlatStyle.Flat;
-            Addition.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Addition.Location = new Point(362, 351);
-            Addition.Name = "Addition";
-            Addition.Size = new Size(75, 75);
-            Addition.TabIndex = 16;
-            Addition.Text = "+";
-            Addition.UseVisualStyleBackColor = true;
+            eight.Font = new Font("Segoe UI", 12F);
+            eight.Location = new Point(101, 176);
+            eight.Margin = new Padding(3, 2, 3, 2);
+            eight.Name = "eight";
+            eight.Size = new Size(52, 38);
+            eight.TabIndex = 9;
+            eight.Text = "8";
+            eight.UseVisualStyleBackColor = true;
+            eight.Click += eight_Click;
             // 
-            // Subtraction
+            // nine
             // 
-            Subtraction.FlatStyle = FlatStyle.Flat;
-            Subtraction.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Subtraction.Location = new Point(362, 270);
-            Subtraction.Name = "Subtraction";
-            Subtraction.Size = new Size(75, 75);
-            Subtraction.TabIndex = 15;
-            Subtraction.Text = "_";
-            Subtraction.UseVisualStyleBackColor = true;
+            nine.Font = new Font("Segoe UI", 12F);
+            nine.Location = new Point(158, 176);
+            nine.Margin = new Padding(3, 2, 3, 2);
+            nine.Name = "nine";
+            nine.Size = new Size(52, 38);
+            nine.TabIndex = 10;
+            nine.Text = "9";
+            nine.UseVisualStyleBackColor = true;
+            nine.Click += nine_Click;
             // 
-            // Multiplication
+            // Equals
             // 
-            Multiplication.FlatStyle = FlatStyle.Flat;
-            Multiplication.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Multiplication.Location = new Point(362, 189);
-            Multiplication.Name = "Multiplication";
-            Multiplication.Size = new Size(75, 75);
-            Multiplication.TabIndex = 14;
-            Multiplication.Text = "X";
-            Multiplication.UseVisualStyleBackColor = true;
+            Equals.Font = new Font("Segoe UI", 12F);
+            Equals.Location = new Point(43, 260);
+            Equals.Margin = new Padding(3, 2, 3, 2);
+            Equals.Name = "Equals";
+            Equals.Size = new Size(110, 38);
+            Equals.TabIndex = 11;
+            Equals.Text = "Enter";
+            Equals.UseVisualStyleBackColor = true;
+            Equals.Click += equals_Click;
             // 
-            // Divition
+            // plus
             // 
-            Divition.FlatStyle = FlatStyle.Flat;
-            Divition.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Divition.Location = new Point(362, 108);
-            Divition.Name = "Divition";
-            Divition.Size = new Size(75, 75);
-            Divition.TabIndex = 13;
-            Divition.Text = "/";
-            Divition.UseVisualStyleBackColor = true;
+            plus.Font = new Font("Segoe UI", 12F);
+            plus.Location = new Point(216, 92);
+            plus.Margin = new Padding(3, 2, 3, 2);
+            plus.Name = "plus";
+            plus.Size = new Size(52, 38);
+            plus.TabIndex = 12;
+            plus.Text = "+";
+            plus.UseVisualStyleBackColor = true;
+            plus.Click += plus_Click;
             // 
-            // Tan_num
+            // minus
             // 
-            Tan_num.FlatStyle = FlatStyle.Flat;
-            Tan_num.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Tan_num.Location = new Point(443, 351);
-            Tan_num.Name = "Tan_num";
-            Tan_num.Size = new Size(75, 75);
-            Tan_num.TabIndex = 20;
-            Tan_num.Text = "Tan";
-            Tan_num.UseVisualStyleBackColor = true;
+            minus.Font = new Font("Segoe UI", 12F);
+            minus.Location = new Point(216, 134);
+            minus.Margin = new Padding(3, 2, 3, 2);
+            minus.Name = "minus";
+            minus.Size = new Size(52, 38);
+            minus.TabIndex = 13;
+            minus.Text = "-";
+            minus.UseVisualStyleBackColor = true;
+            minus.Click += minus_Click;
             // 
-            // Fraction
+            // times
             // 
-            Fraction.FlatStyle = FlatStyle.Flat;
-            Fraction.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Fraction.Location = new Point(443, 270);
-            Fraction.Name = "Fraction";
-            Fraction.Size = new Size(75, 75);
-            Fraction.TabIndex = 19;
-            Fraction.Text = "1/x";
-            Fraction.UseVisualStyleBackColor = true;
+            times.Font = new Font("Segoe UI", 12F);
+            times.Location = new Point(216, 176);
+            times.Margin = new Padding(3, 2, 3, 2);
+            times.Name = "times";
+            times.Size = new Size(52, 38);
+            times.TabIndex = 14;
+            times.Text = "*";
+            times.UseVisualStyleBackColor = true;
+            times.Click += times_Click;
             // 
-            // Squared
+            // divide
             // 
-            Squared.FlatStyle = FlatStyle.Flat;
-            Squared.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Squared.Location = new Point(443, 189);
-            Squared.Name = "Squared";
-            Squared.Size = new Size(75, 75);
-            Squared.TabIndex = 18;
-            Squared.Text = "x² ";
-            Squared.UseVisualStyleBackColor = true;
+            divide.Font = new Font("Segoe UI", 12F);
+            divide.Location = new Point(216, 218);
+            divide.Margin = new Padding(3, 2, 3, 2);
+            divide.Name = "divide";
+            divide.Size = new Size(52, 38);
+            divide.TabIndex = 15;
+            divide.Text = "/";
+            divide.UseVisualStyleBackColor = true;
+            divide.Click += divide_Click;
             // 
-            // Sqareroot
+            // Clear
             // 
-            Sqareroot.FlatStyle = FlatStyle.Flat;
-            Sqareroot.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Sqareroot.Location = new Point(443, 108);
-            Sqareroot.Name = "Sqareroot";
-            Sqareroot.Size = new Size(75, 75);
-            Sqareroot.TabIndex = 17;
-            Sqareroot.Text = "√";
-            Sqareroot.UseVisualStyleBackColor = true;
+            Clear.Font = new Font("Segoe UI", 12F);
+            Clear.Location = new Point(158, 260);
+            Clear.Margin = new Padding(3, 2, 3, 2);
+            Clear.Name = "Clear";
+            Clear.Size = new Size(110, 38);
+            Clear.TabIndex = 16;
+            Clear.Text = "Clear";
+            Clear.UseVisualStyleBackColor = true;
+            Clear.Click += Clear_Click;
             // 
-            // Cos_num
+            // dot
             // 
-            Cos_num.FlatStyle = FlatStyle.Flat;
-            Cos_num.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Cos_num.Location = new Point(524, 351);
-            Cos_num.Name = "Cos_num";
-            Cos_num.Size = new Size(75, 75);
-            Cos_num.TabIndex = 24;
-            Cos_num.Text = "Cos";
-            Cos_num.UseVisualStyleBackColor = true;
+            dot.Font = new Font("Segoe UI", 12F);
+            dot.Location = new Point(101, 218);
+            dot.Margin = new Padding(3, 2, 3, 2);
+            dot.Name = "dot";
+            dot.Size = new Size(52, 38);
+            dot.TabIndex = 17;
+            dot.Text = ".";
+            dot.UseVisualStyleBackColor = true;
+            dot.Click += dot_Click;
             // 
-            // Sin_num
+            // back
             // 
-            Sin_num.FlatStyle = FlatStyle.Flat;
-            Sin_num.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Sin_num.Location = new Point(524, 270);
-            Sin_num.Name = "Sin_num";
-            Sin_num.Size = new Size(75, 75);
-            Sin_num.TabIndex = 23;
-            Sin_num.Text = "Sin";
-            Sin_num.UseVisualStyleBackColor = true;
+            back.Font = new Font("Segoe UI", 12F);
+            back.Location = new Point(43, 218);
+            back.Margin = new Padding(3, 2, 3, 2);
+            back.Name = "back";
+            back.Size = new Size(52, 38);
+            back.TabIndex = 18;
+            back.Text = "←";
+            back.UseVisualStyleBackColor = true;
+            back.Click += back_Click;
             // 
-            // Cubed
+            // power
             // 
-            Cubed.FlatStyle = FlatStyle.Flat;
-            Cubed.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Cubed.Location = new Point(524, 189);
-            Cubed.Name = "Cubed";
-            Cubed.Size = new Size(75, 75);
-            Cubed.TabIndex = 22;
-            Cubed.Text = "x³";
-            Cubed.UseVisualStyleBackColor = true;
+            power.Font = new Font("Segoe UI", 12F);
+            power.Location = new Point(274, 92);
+            power.Margin = new Padding(3, 2, 3, 2);
+            power.Name = "power";
+            power.Size = new Size(52, 38);
+            power.TabIndex = 19;
+            power.Text = "^";
+            power.UseVisualStyleBackColor = true;
+            power.Click += power_Click;
             // 
-            // Pi
+            // squareroot
             // 
-            Pi.FlatStyle = FlatStyle.Flat;
-            Pi.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Pi.Location = new Point(524, 108);
-            Pi.Name = "Pi";
-            Pi.Size = new Size(75, 75);
-            Pi.TabIndex = 21;
-            Pi.Text = "π";
-            Pi.UseVisualStyleBackColor = true;
+            squareroot.Font = new Font("Segoe UI", 12F);
+            squareroot.Location = new Point(274, 134);
+            squareroot.Margin = new Padding(3, 2, 3, 2);
+            squareroot.Name = "squareroot";
+            squareroot.Size = new Size(52, 38);
+            squareroot.TabIndex = 20;
+            squareroot.Text = "sqrt";
+            squareroot.UseVisualStyleBackColor = true;
+            squareroot.Click += squareroot_Click;
             // 
-            // BackButtonOnCalc
+            // logarithm
             // 
-            BackButtonOnCalc.FlatStyle = FlatStyle.Flat;
-            BackButtonOnCalc.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            BackButtonOnCalc.Location = new Point(605, 108);
-            BackButtonOnCalc.Name = "BackButtonOnCalc";
-            BackButtonOnCalc.Size = new Size(75, 75);
-            BackButtonOnCalc.TabIndex = 25;
-            BackButtonOnCalc.Text = "⌫";
-            BackButtonOnCalc.UseVisualStyleBackColor = true;
+            logarithm.Font = new Font("Segoe UI", 12F);
+            logarithm.Location = new Point(272, 176);
+            logarithm.Margin = new Padding(3, 2, 3, 2);
+            logarithm.Name = "logarithm";
+            logarithm.Size = new Size(52, 38);
+            logarithm.TabIndex = 21;
+            logarithm.Text = "log";
+            logarithm.UseVisualStyleBackColor = true;
+            logarithm.Click += logarithm_Click;
             // 
-            // C_num
+            // Sinetrigo
             // 
-            C_num.FlatStyle = FlatStyle.Flat;
-            C_num.Font = new Font("Sitka Banner", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            C_num.Location = new Point(605, 189);
-            C_num.Name = "C_num";
-            C_num.Size = new Size(75, 75);
-            C_num.TabIndex = 26;
-            C_num.Text = "C";
-            C_num.UseVisualStyleBackColor = true;
+            Sinetrigo.Font = new Font("Segoe UI", 12F);
+            Sinetrigo.Location = new Point(332, 92);
+            Sinetrigo.Margin = new Padding(3, 2, 3, 2);
+            Sinetrigo.Name = "Sinetrigo";
+            Sinetrigo.Size = new Size(52, 38);
+            Sinetrigo.TabIndex = 22;
+            Sinetrigo.Text = "sin";
+            Sinetrigo.UseVisualStyleBackColor = true;
+            Sinetrigo.Click += Sinetrigo_Click;
             // 
-            // CE_num
+            // cosinetrigo
             // 
-            CE_num.FlatStyle = FlatStyle.Flat;
-            CE_num.Font = new Font("Sitka Banner", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            CE_num.Location = new Point(605, 270);
-            CE_num.Name = "CE_num";
-            CE_num.Size = new Size(75, 75);
-            CE_num.TabIndex = 27;
-            CE_num.Text = "CE";
-            CE_num.UseVisualStyleBackColor = true;
+            cosinetrigo.Font = new Font("Segoe UI", 12F);
+            cosinetrigo.Location = new Point(332, 134);
+            cosinetrigo.Margin = new Padding(3, 2, 3, 2);
+            cosinetrigo.Name = "cosinetrigo";
+            cosinetrigo.Size = new Size(52, 38);
+            cosinetrigo.TabIndex = 23;
+            cosinetrigo.Text = "cos";
+            cosinetrigo.UseVisualStyleBackColor = true;
+            cosinetrigo.Click += cosinetrigo_Click;
             // 
-            // Result
+            // tangeanttrigo
             // 
-            Result.FlatStyle = FlatStyle.Flat;
-            Result.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Result.Location = new Point(605, 351);
-            Result.Name = "Result";
-            Result.Size = new Size(75, 75);
-            Result.TabIndex = 28;
-            Result.Text = "=";
-            Result.UseVisualStyleBackColor = true;
+            tangeanttrigo.Font = new Font("Segoe UI", 12F);
+            tangeanttrigo.Location = new Point(330, 176);
+            tangeanttrigo.Margin = new Padding(3, 2, 3, 2);
+            tangeanttrigo.Name = "tangeanttrigo";
+            tangeanttrigo.Size = new Size(52, 38);
+            tangeanttrigo.TabIndex = 24;
+            tangeanttrigo.Text = "tan";
+            tangeanttrigo.UseVisualStyleBackColor = true;
+            tangeanttrigo.Click += tangeanttrigo_Click;
+            // 
+            // naturallog
+            // 
+            naturallog.Font = new Font("Segoe UI", 12F);
+            naturallog.Location = new Point(272, 218);
+            naturallog.Margin = new Padding(3, 2, 3, 2);
+            naturallog.Name = "naturallog";
+            naturallog.Size = new Size(52, 38);
+            naturallog.TabIndex = 25;
+            naturallog.Text = "ln";
+            naturallog.UseVisualStyleBackColor = true;
+            naturallog.Click += naturallog_Click;
+            // 
+            // tab
+            // 
+            tab.Font = new Font("Segoe UI", 12F);
+            tab.Location = new Point(332, 218);
+            tab.Margin = new Padding(3, 2, 3, 2);
+            tab.Name = "tab";
+            tab.Size = new Size(52, 38);
+            tab.TabIndex = 26;
+            tab.Text = "Sw";
+            tab.UseVisualStyleBackColor = true;
             // 
             // Calculator
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(Result);
-            Controls.Add(CE_num);
-            Controls.Add(C_num);
-            Controls.Add(BackButtonOnCalc);
-            Controls.Add(Cos_num);
-            Controls.Add(Sin_num);
-            Controls.Add(Cubed);
-            Controls.Add(Pi);
-            Controls.Add(Tan_num);
-            Controls.Add(Fraction);
-            Controls.Add(Squared);
-            Controls.Add(Sqareroot);
-            Controls.Add(Addition);
-            Controls.Add(Subtraction);
-            Controls.Add(Multiplication);
-            Controls.Add(Divition);
-            Controls.Add(Three);
-            Controls.Add(Six);
-            Controls.Add(Nine);
-            Controls.Add(DecimalPoint);
-            Controls.Add(Two);
-            Controls.Add(Five);
-            Controls.Add(Eight);
+            ClientSize = new Size(866, 385);
+            Controls.Add(tab);
+            Controls.Add(naturallog);
+            Controls.Add(tangeanttrigo);
+            Controls.Add(cosinetrigo);
+            Controls.Add(Sinetrigo);
+            Controls.Add(logarithm);
+            Controls.Add(squareroot);
+            Controls.Add(power);
+            Controls.Add(back);
+            Controls.Add(dot);
+            Controls.Add(Clear);
+            Controls.Add(divide);
+            Controls.Add(times);
+            Controls.Add(minus);
+            Controls.Add(plus);
+            Controls.Add(Equals);
+            Controls.Add(nine);
+            Controls.Add(eight);
+            Controls.Add(seven);
+            Controls.Add(six);
+            Controls.Add(fiver);
+            Controls.Add(four);
+            Controls.Add(three);
+            Controls.Add(two);
+            Controls.Add(one);
             Controls.Add(zero);
-            Controls.Add(One);
-            Controls.Add(Four);
-            Controls.Add(Calc_Output);
-            Controls.Add(Seven);
+            Controls.Add(Viewbox);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Calculator";
             Text = "Calculator";
+            Load += Calculator_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button Seven;
-        private TextBox Calc_Output;
-        private Button Four;
-        private Button One;
+        private TextBox Viewbox;
         private Button zero;
-        private Button DecimalPoint;
-        private Button Two;
-        private Button Five;
-        private Button Eight;
-        private Button Three;
-        private Button Six;
-        private Button Nine;
-        private Button Addition;
-        private Button Subtraction;
-        private Button Multiplication;
-        private Button Divition;
-        private Button Tan_num;
-        private Button Fraction;
-        private Button Squared;
-        private Button Sqareroot;
-        private Button Cos_num;
-        private Button Sin_num;
-        private Button Cubed;
-        private Button Pi;
-        private Button BackButtonOnCalc;
-        private Button C_num;
-        private Button CE_num;
-        private Button Result;
+        private Button one;
+        private Button two;
+        private Button three;
+        private Button four;
+        private Button fiver;
+        private Button six;
+        private Button seven;
+        private Button eight;
+        private Button nine;
+        private Button Equals;
+        private Button plus;
+        private Button minus;
+        private Button times;
+        private Button divide;
+        private Button Clear;
+        private Button dot;
+        private Button back;
+        private Button power;
+        private Button squareroot;
+        private Button logarithm;
+        private Button Sinetrigo;
+        private Button cosinetrigo;
+        private Button tangeanttrigo;
+        private Button naturallog;
+        private Button tab;
     }
 }
