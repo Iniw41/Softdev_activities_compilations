@@ -29,9 +29,9 @@ namespace Softdev_activities.Forms
                 this.Hide();
                 MainWindow dashboard = new MainWindow();
                 dashboard.Show();
-                dashboard = null;
-                this.Show();
                 
+                
+
             }
             else
             {
