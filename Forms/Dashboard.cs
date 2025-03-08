@@ -1,3 +1,5 @@
+using Softdev_activities.Forms;
+
 namespace Softdev_activities
 
 {
@@ -9,12 +11,15 @@ namespace Softdev_activities
         private Random random;
         private int tempIndex;
         private Form activeForm;
+        private Panel panelContainer;
+
 
         public MainWindow()
         {
             InitializeComponent();
             random = new Random();
-
+            
+           
         }
 
         public Color SelectThemeCOlor()
@@ -29,6 +34,7 @@ namespace Softdev_activities
             string color = ThemeColor.ColorList[index];
             return ColorTranslator.FromHtml(color);
         }
+        
 
         private void ActivateButton(object btnSender)
         {
@@ -75,15 +81,12 @@ namespace Softdev_activities
             childForm.BringToFront();
             childForm.Show();
             DashboardLabel.Text = childForm.Text;
-            
+
         }
+
+
 
         private void MainWindow_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
@@ -127,12 +130,16 @@ namespace Softdev_activities
         }
         private void CalculatorButton_Click(object sender, EventArgs e)
         {
-            
+
             OpenChildForm(new Forms.Calculator(), sender);
         }
         private void Act7Buttron_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+        }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
         }
 
         private void DashboardLabel_Click(object sender, EventArgs e)
@@ -141,6 +148,11 @@ namespace Softdev_activities
         }
 
         private void PanelDesktop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
