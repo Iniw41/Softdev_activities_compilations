@@ -194,7 +194,7 @@
             Equals.Name = "Equals";
             Equals.Size = new Size(110, 38);
             Equals.TabIndex = 11;
-            Equals.Text = "Enter";
+            Equals.Text = "=";
             Equals.UseVisualStyleBackColor = true;
             Equals.Click += equals_Click;
             // 
