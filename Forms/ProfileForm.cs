@@ -62,5 +62,10 @@ namespace Softdev_activities.Forms
         {
             return input.Length > 0;
         }
+
+        private void ProfileForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

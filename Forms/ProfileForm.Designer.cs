@@ -130,6 +130,7 @@
             Controls.Add(panel1);
             Name = "ProfileForm";
             Text = "Profile";
+            Load += ProfileForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
