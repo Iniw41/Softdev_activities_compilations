@@ -73,7 +73,7 @@
             Act7Buttron.Padding = new Padding(12, 0, 0, 0);
             Act7Buttron.Size = new Size(250, 75);
             Act7Buttron.TabIndex = 2;
-            Act7Buttron.Text = "Activity 7";
+            Act7Buttron.Text = "Combo & List Box";
             Act7Buttron.TextImageRelation = TextImageRelation.ImageBeforeText;
             Act7Buttron.UseVisualStyleBackColor = true;
             Act7Buttron.Click += Act7Buttron_Click;
