@@ -135,7 +135,7 @@ namespace Softdev_activities
         }
         private void Act7Buttron_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.CombAndListBox(), sender);
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {

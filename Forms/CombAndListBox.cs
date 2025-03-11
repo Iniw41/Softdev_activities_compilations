@@ -16,5 +16,10 @@ namespace Softdev_activities.Forms
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            TestLabelComboBox.Text = comboBox1.SelectedItem.ToString();
+        }
     }
 }

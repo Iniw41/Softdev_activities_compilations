@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             panelMenu = new Panel();
             Act7Buttron = new Button();
             CalculatorButton = new Button();
@@ -39,7 +38,6 @@
             UserName = new Label();
             panel1 = new Panel();
             DashboardLabel = new Label();
-            guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(components);
             PanelDesktop = new Panel();
             panelMenu.SuspendLayout();
             PaneLogo.SuspendLayout();
@@ -195,11 +193,6 @@
             DashboardLabel.Text = "Dashboard";
             DashboardLabel.Click += DashboardLabel_Click;
             // 
-            // guna2DragControl1
-            // 
-            guna2DragControl1.DockIndicatorTransparencyValue = 0.6D;
-            guna2DragControl1.UseTransparentDrag = true;
-            // 
             // PanelDesktop
             // 
             PanelDesktop.BackColor = Color.White;
@@ -242,7 +235,6 @@
         private PictureBox pictureBox2;
         private Button Act7Buttron;
         private Button CalculatorButton;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Label DashboardLabel;
         private Panel PanelDesktop;
     }
