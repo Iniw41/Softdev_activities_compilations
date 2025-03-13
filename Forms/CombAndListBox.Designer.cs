@@ -32,6 +32,7 @@
             TestLabelComboBox = new Label();
             label1 = new Label();
             label2 = new Label();
+            AddItemByUser = new TextBox();
             SuspendLayout();
             // 
             // comboBox1
@@ -40,9 +41,9 @@
             comboBox1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Item 1", "Item  2", "Item 3", "Item4" });
-            comboBox1.Location = new Point(96, 42);
+            comboBox1.Location = new Point(138, 109);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(281, 40);
+            comboBox1.Size = new Size(313, 40);
             comboBox1.TabIndex = 0;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
             // 
@@ -72,15 +73,25 @@
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(15, 50);
             label2.Name = "label2";
-            label2.Size = new Size(75, 32);
+            label2.Size = new Size(117, 32);
             label2.TabIndex = 3;
-            label2.Text = "Input:";
+            label2.Text = "Add Item:";
+            // 
+            // AddItemByUser
+            // 
+            AddItemByUser.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AddItemByUser.Location = new Point(138, 43);
+            AddItemByUser.Name = "AddItemByUser";
+            AddItemByUser.Size = new Size(313, 39);
+            AddItemByUser.TabIndex = 4;
+            AddItemByUser.TextChanged += AddItemByUser_TextChanged;
             // 
             // CombAndListBox
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(AddItemByUser);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(TestLabelComboBox);
@@ -98,5 +109,6 @@
         private Label TestLabelComboBox;
         private Label label1;
         private Label label2;
+        private TextBox AddItemByUser;
     }
 }
