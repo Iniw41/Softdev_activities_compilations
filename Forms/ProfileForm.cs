@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,12 @@ namespace Softdev_activities.Forms
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        // Create the SQL database
+        private void createDatabase()
+        {
+            string path = "C:\\Users\\User\\Desktop\\Softdev activities\\Softdev activities\\Softdev activities";
         }
 
         private void button1_Click(object sender, EventArgs e)

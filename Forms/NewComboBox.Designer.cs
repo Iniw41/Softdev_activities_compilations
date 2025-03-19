@@ -55,6 +55,7 @@ partial class Act7
         // 
         // sidepanel
         // 
+        sidepanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
         sidepanel.BackColor = Color.FromArgb(55, 118, 161);
         sidepanel.Controls.Add(label2);
         sidepanel.Controls.Add(textBox1);
@@ -67,7 +68,6 @@ partial class Act7
         sidepanel.Controls.Add(buttonclear);
         sidepanel.Controls.Add(buttonadd);
         sidepanel.Controls.Add(buttonremove);
-        sidepanel.Dock = DockStyle.Left;
         sidepanel.Location = new Point(0, 0);
         sidepanel.Margin = new Padding(3, 2, 3, 2);
         sidepanel.Name = "sidepanel";
@@ -80,7 +80,7 @@ partial class Act7
         label2.BackColor = Color.Transparent;
         label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
         label2.ForeColor = Color.White;
-        label2.Location = new Point(79, 330);
+        label2.Location = new Point(12, 326);
         label2.Name = "label2";
         label2.Size = new Size(92, 21);
         label2.TabIndex = 18;
@@ -88,10 +88,10 @@ partial class Act7
         // 
         // textBox1
         // 
-        textBox1.Location = new Point(20, 354);
+        textBox1.Location = new Point(12, 353);
         textBox1.Margin = new Padding(3, 2, 3, 2);
         textBox1.Name = "textBox1";
-        textBox1.Size = new Size(227, 23);
+        textBox1.Size = new Size(258, 23);
         textBox1.TabIndex = 14;
         textBox1.TextChanged += textBox1_TextChanged_1;
         // 
@@ -101,7 +101,7 @@ partial class Act7
         label1.BackColor = Color.Transparent;
         label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
         label1.ForeColor = Color.White;
-        label1.Location = new Point(79, 176);
+        label1.Location = new Point(12, 187);
         label1.Name = "label1";
         label1.Size = new Size(81, 21);
         label1.TabIndex = 14;
@@ -113,7 +113,7 @@ partial class Act7
         label4.BackColor = Color.Transparent;
         label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
         label4.ForeColor = Color.White;
-        label4.Location = new Point(79, 110);
+        label4.Location = new Point(12, 117);
         label4.Name = "label4";
         label4.Size = new Size(118, 21);
         label4.TabIndex = 13;
@@ -137,12 +137,12 @@ partial class Act7
         savebutton.BackColor = Color.SkyBlue;
         savebutton.BackgroundImageLayout = ImageLayout.Zoom;
         savebutton.FlatStyle = FlatStyle.Flat;
-        savebutton.Location = new Point(139, 274);
+        savebutton.Image = Properties.Resources.SaveIcon1;
+        savebutton.Location = new Point(151, 250);
         savebutton.Margin = new Padding(3, 2, 3, 2);
         savebutton.Name = "savebutton";
-        savebutton.Size = new Size(46, 32);
+        savebutton.Size = new Size(56, 56);
         savebutton.TabIndex = 7;
-        savebutton.Text = "+";
         savebutton.UseVisualStyleBackColor = false;
         savebutton.Click += savebutton_Click;
         // 
@@ -150,10 +150,10 @@ partial class Act7
         // 
         textBoxitem.BackColor = Color.FromArgb(255, 248, 242);
         textBoxitem.ForeColor = Color.FromArgb(78, 78, 78);
-        textBoxitem.Location = new Point(20, 210);
+        textBoxitem.Location = new Point(12, 210);
         textBoxitem.Margin = new Padding(3, 2, 3, 2);
         textBoxitem.Name = "textBoxitem";
-        textBoxitem.Size = new Size(227, 23);
+        textBoxitem.Size = new Size(258, 23);
         textBoxitem.TabIndex = 6;
         textBoxitem.TextChanged += textBoxitem_TextChanged;
         // 
@@ -162,11 +162,10 @@ partial class Act7
         comboboxcategory.BackColor = Color.FromArgb(255, 248, 242);
         comboboxcategory.ForeColor = Color.FromArgb(78, 78, 78);
         comboboxcategory.FormattingEnabled = true;
-        comboboxcategory.Items.AddRange(new object[] { "Defualt Item1", "Default Item2", "Item 3" });
-        comboboxcategory.Location = new Point(20, 140);
+        comboboxcategory.Location = new Point(12, 140);
         comboboxcategory.Margin = new Padding(3, 2, 3, 2);
         comboboxcategory.Name = "comboboxcategory";
-        comboboxcategory.Size = new Size(227, 23);
+        comboboxcategory.Size = new Size(258, 23);
         comboboxcategory.TabIndex = 3;
         comboboxcategory.SelectedIndexChanged += comboboxcategory_SelectedIndexChanged;
         // 
@@ -176,10 +175,10 @@ partial class Act7
         buttonclear.BackgroundImageLayout = ImageLayout.Zoom;
         buttonclear.FlatStyle = FlatStyle.Popup;
         buttonclear.ImageAlign = ContentAlignment.TopCenter;
-        buttonclear.Location = new Point(201, 274);
+        buttonclear.Location = new Point(213, 250);
         buttonclear.Margin = new Padding(3, 2, 3, 2);
         buttonclear.Name = "buttonclear";
-        buttonclear.Size = new Size(46, 32);
+        buttonclear.Size = new Size(57, 56);
         buttonclear.TabIndex = 3;
         buttonclear.Text = "-";
         buttonclear.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -192,10 +191,10 @@ partial class Act7
         buttonadd.BackgroundImageLayout = ImageLayout.Zoom;
         buttonadd.FlatStyle = FlatStyle.Popup;
         buttonadd.ImageAlign = ContentAlignment.TopCenter;
-        buttonadd.Location = new Point(20, 274);
+        buttonadd.Location = new Point(12, 250);
         buttonadd.Margin = new Padding(3, 2, 3, 2);
         buttonadd.Name = "buttonadd";
-        buttonadd.Size = new Size(46, 32);
+        buttonadd.Size = new Size(61, 56);
         buttonadd.TabIndex = 2;
         buttonadd.Text = "+";
         buttonadd.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -208,10 +207,10 @@ partial class Act7
         buttonremove.BackgroundImageLayout = ImageLayout.Zoom;
         buttonremove.FlatStyle = FlatStyle.Popup;
         buttonremove.ImageAlign = ContentAlignment.TopCenter;
-        buttonremove.Location = new Point(79, 274);
+        buttonremove.Location = new Point(79, 250);
         buttonremove.Margin = new Padding(3, 2, 3, 2);
         buttonremove.Name = "buttonremove";
-        buttonremove.Size = new Size(46, 32);
+        buttonremove.Size = new Size(66, 56);
         buttonremove.TabIndex = 4;
         buttonremove.Text = "-";
         buttonremove.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -220,6 +219,7 @@ partial class Act7
         // 
         // listBoxshopping
         // 
+        listBoxshopping.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         listBoxshopping.BackColor = Color.FromArgb(224, 224, 224);
         listBoxshopping.BorderStyle = BorderStyle.FixedSingle;
         listBoxshopping.Cursor = Cursors.Cross;
@@ -235,13 +235,14 @@ partial class Act7
         // 
         // labellistbox
         // 
+        labellistbox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
         labellistbox.AutoSize = true;
-        labellistbox.BorderStyle = BorderStyle.Fixed3D;
+        labellistbox.FlatStyle = FlatStyle.Flat;
         labellistbox.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
         labellistbox.ForeColor = Color.FromArgb(78, 78, 78);
         labellistbox.Location = new Point(523, 19);
         labellistbox.Name = "labellistbox";
-        labellistbox.Size = new Size(140, 47);
+        labellistbox.Size = new Size(138, 45);
         labellistbox.TabIndex = 5;
         labellistbox.Text = "List Box";
         // 
@@ -283,6 +284,7 @@ partial class Act7
         // 
         // labelCounter
         // 
+        labelCounter.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
         labelCounter.AutoSize = true;
         labelCounter.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
         labelCounter.ForeColor = Color.FromArgb(78, 78, 78);
@@ -298,10 +300,10 @@ partial class Act7
         AutoScaleMode = AutoScaleMode.Font;
         BackColor = Color.White;
         ClientSize = new Size(892, 413);
-        Controls.Add(labelCounter);
-        Controls.Add(labellistbox);
         Controls.Add(listBoxshopping);
         Controls.Add(sidepanel);
+        Controls.Add(labelCounter);
+        Controls.Add(labellistbox);
         ForeColor = Color.FromArgb(78, 78, 78);
         FormBorderStyle = FormBorderStyle.None;
         Margin = new Padding(3, 2, 3, 2);
